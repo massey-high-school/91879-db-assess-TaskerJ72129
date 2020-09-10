@@ -27,7 +27,7 @@ body {
 
 .box {
     padding: 20px;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     background-color: #ddd;
 }
 
@@ -35,7 +35,7 @@ body {
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #888;  /* dark grey */
+    background-color: #0077B6;  /* slightly dark blue */
 }
 
 /* Set font on dark areas to white */
@@ -107,10 +107,11 @@ a:hover{color: #000;}    /* Black*/
 
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 25%;
     max-width: 85%;
     height: auto;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);     
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8); 
+    background-color: #4c99c2
 }
 
 .center_image {

@@ -4,12 +4,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Put Content Here">
-    <meta name="keywords" content="Put keywords here">
-    <meta name="author" content="Put your name here">
+    <meta name="description" content="FOOD REVIEW">
+    <meta name="keywords" content="food, reviews">
+    <meta name="author" content="James Tasker">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>FOOD REVIEW! </title>
+    <title>FOOD REVIEW</title>
     
     <!-- Edit the link below / replace with your chosen google font -->
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
@@ -30,12 +30,12 @@
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
             <div class="box logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="images/gen_logo.png" width="150" height="150" alt="generic logo" />
+            <img class="img-circle" src="Images/cook_smol.png" width="150" height="150" alt="cook" />
             
             </div>    <!-- / logo -->
-        </a>
+        </a>    
             
-            <h1>FOOD REVIEW!</h1>
+            <h1>FOOD REVIEW</h1>
         </div>    <!-- / banner -->
            
         <div class="box side">
@@ -61,7 +61,7 @@
         
 
         <div class="box footer">
-            CC yourname 20XX
+            CC JamesTasker 2020
         </div>    <!-- / footer -->
     
     </div>  <!-- / wrapper  -->
