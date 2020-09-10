@@ -14,7 +14,6 @@ body {
     grid-template-rows: auto;
     grid-template-areas: 
         "banner banner"
-        "nav nav"
         "side main"
         "footer footer";
         grid-gap: 4px;
@@ -54,6 +53,7 @@ body {
 
 .banner {
     grid-area: banner;
+    background-color: #0077B6; /* slightly dark blue */
 }
 
 .nav {
@@ -65,18 +65,19 @@ body {
 
 .side {
     grid-area: side;
-    background-color: #333;
+    background-color: #4c99c2; /* blue */
 }
 
 .main {
     grid-area: main;
-    background-color: #EEE;  /* very pale grey */
+    background-color: #CAF0F8;  /* very pale blue */
     border: solid 1px #CCC;
 }
 
 
 .footer {
     grid-area: footer;
+    background-color: #0077B6;  /* slightly dark blue */
     text-align: right;
 }
 

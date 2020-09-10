@@ -9,7 +9,7 @@
     <meta name="author" content="Put your name here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Website Title goes here</title>
+    <title>FOOD REVIEW! </title>
     
     <!-- Edit the link below / replace with your chosen google font -->
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
@@ -35,19 +35,9 @@
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Website Name</h1>
+            <h1>FOOD REVIEW!</h1>
         </div>    <!-- / banner -->
-
-        <!-- Navigation goes here.  Edit BOTH the file name and the link name -->
-        <div class="box nav">
-            <a href="index.html">Home</a> | 
-            <a href="page1.html">Page 1</a> | 
-            <a href="page2.html">Page 2</a> | 
-            <a href="page3.html">Page 3</a> | 
-            <a href="contact.html">Contact</a>
-        </div>    <!-- / nav -->        
-        
-        
+           
         <div class="box side">
             Side Bar goes here
         </div>
