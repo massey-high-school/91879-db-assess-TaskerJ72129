@@ -88,9 +88,9 @@ h1, h2, h3, h4 {
 }
 
 /* Navigation Links */
-.nav a {font-weight: bold;}
+.nav a {font-weight: bold;  text-decoration: none;}
 .nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
-.nav a:hover {color: #604830; text-decoration: none;} /* chocolate brown */
+.nav a:hover {color: #604830;} /* chocolate brown */
 
 
 /* links in page */
