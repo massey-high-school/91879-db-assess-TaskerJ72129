@@ -57,19 +57,7 @@
             
             <h1>FOOD REVIEW</h1>
         </div>    <!-- / banner -->
-           
-        <div class="box side">
-        <h2>Search | <a class="side" href="showall.php">Show All</a></h2>
             
-        <i>Type part of the title / author name if desired</i>
-            
-        <hr />
-        
-        Title Search<br />
-        Author Search<br />
-        Genre Search<br />
-        Rating Search
-        
             <!-- side bar -->
     <div class ="box side">
         <h2>Search | <a class="side" href="showall.php">Show All</a></h2>
@@ -171,5 +159,4 @@
 
             <hr />
 
-        </div> <!-- / side bar -->
         </div> <!-- / side bar -->
