@@ -92,6 +92,10 @@ h1, h2, h3, h4 {
 .nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
 .nav a:hover {color: #604830;} /* chocolate brown */
 
+/* side links */
+a.side{font-weight: bold; text-decoration: none;}
+a.side:link, .nav a:visited {color:#ebcd3b }/*orangy yellow */
+a.side:hover {color:#604830 ;}/* chocolate brown */
 
 /* links in page */
 a {font-weight: bold;}
@@ -114,6 +118,30 @@ a:hover{color: #000;}    /* Black*/
     background-color: #4c99c2
 }
 
+/* Sub Heading Formatting */
+.sub_heading {
+    font-family: 'Ubuntu', sans-serif;
+    color: #593849; /* purple */
+    font-weight: bold;
+}
+
+/* Results Box Formatting */
+.results {
+    background-color: #DFD1FF; /* very very light purple */  
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Error Box formatting */
+.error{
+    background-color: #ffe0ed; /* pale pink */
+    border: 2px solid #8a1737; /* dark red border */
+    color: #8a1737; /* dark red */
+    border-radius: 5px;
+    padding: 20px;
+}
+
 .center_image {
     text-align: center;
 }
@@ -124,6 +152,61 @@ a:hover{color: #000;}    /* Black*/
     color: #593849; /* purple */
     font-weight: bold;
 }
+
+/* form formatting */
+
+form{
+    width: 250px;
+    margin: 5px;
+}
+
+.search {
+    width: 160px;
+    padding: 8px 15px;
+    background: #fff;
+}
+
+.submit{
+    font-family: FontAwesome;
+    position: relative;
+    width: 45px;
+    left: -1px;
+    background-color: #636363;
+    color: #d6d6d6;
+    border: 1px solid #636363;
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #000;
+}
+input{
+    height: 40px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.half_width{
+    width: 80px;
+}
+
+select{
+    outline: 0;
+    height: 40px;
+    border: 1px solid #ccc;
+    color: #878787;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
 
 
 
