@@ -3,11 +3,7 @@
 ?>
         
         <div class="box main">
-            <h2>First Page heading</h2>
-            
-            <p>
-                Welcome
-            </p>
+            <h2>WELCOME</h2>
             
             <p>
                 Eating is one of life's simple pleasures. Please search the database by using the tools in the side bar. Hopefully you will find something that appeals.

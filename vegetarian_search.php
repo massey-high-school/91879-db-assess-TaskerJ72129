@@ -1,37 +1,17 @@
 <?php include "topbit.php";
 
 // if find button pushed...
-if(isset($_POST['find_rating']))
+if(isset($_POST['find_vegetarian']))
     
 {
     
 // Retrieves author and sanitises it.
-$amount=test_input(mysqli_real_escape_string($dbconnect,
-$_POST['amount']));
-$stars=test_input(mysqli_real_escape_string($dbconnect,
-$_POST['stars']));
+$vegetarian=test_input(mysqli_real_escape_string($dbconnect,
+$_POST['vegetarian']));
     
-if ($amount=="exactly")
-    
-{
-    $find_sql="SELECT *
-    FROM `2020_L1_Asses_JamTas`
-    WHERE `Rating` =$stars";
-}
-
-elseif ($amount=="less")
-    
-{
-    $find_sql="SELECT *
-    FROM `2020_L1_Asses_JamTas`
-    WHERE `Rating` <=$stars";
-}
-    
-else{
-    $find_sql="SELECT *
-    FROM `2020_L1_Asses_JamTas`
-    WHERE `Rating` >=$stars";
-}
+$find_sql="SELECT *
+FROM `2020_L1_Asses_JamTas`
+WHERE `Vegetarian` LIKE '%$vegetarian%'";
 $find_query=mysqli_query($dbconnect, $find_sql);
 $find_rs=mysqli_fetch_assoc($find_query);
 $count=mysqli_num_rows($find_query); 
@@ -43,7 +23,7 @@ $count=mysqli_num_rows($find_query);
         
         <div class="box main">
             
-            <h2>rating Search</h2>
+            <h2>vegetarian Search</h2>
             
             <?php
             
@@ -80,14 +60,14 @@ $count=mysqli_num_rows($find_query);
 
                     <p>Shop: <span class="sub_heading"><?php echo
                     $find_rs['Shop']; ?></span></p>
-                    
-                    <p>Meal: <span class="sub_heading"><?php echo
-                    $find_rs['Meal']; ?></span></p>
 
+                    <p>meal: <span class="sub_heading"><?php echo
+                    $find_rs['Meal']; ?></span></p>
+                    
                     <p>Vegetarian: <span class="sub_heading"><?php echo
                     $find_rs['Vegetarian']; ?></span></p>
-                    
-                    <p>Rating: <span class="sub_heading">
+
+                    <p>Rating: <span class="sub_heading">   
                         
                         <?php
                         for($x=0; $x < $find_rs['Rating']; $x++)
@@ -107,7 +87,6 @@ $count=mysqli_num_rows($find_query);
                         <?php echo $find_rs['Review']; ?>
 
                     </p>
-
                 </div> <!-- / end restults -->
             
             <br /> 
